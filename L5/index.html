@@ -1,7 +1,13 @@
+<!DOCTYPE html>
 <html>
 	<head>
 		<title>Student</title>
-                <style> table, th, td{
+        <link rel="stylesheet"
+href="style.css">
+      
+       
+         <style> 
+table, th, td{
         border: 2px solid purple;
 }
 body{
@@ -25,9 +31,15 @@ font-size:25px;
 	</head>
 
 	<body>
-		<h1>Nume: Olariu</h1>
-                <h2>Prenume:Bianca-Nicoleta</h2>
+    <br>
+            
+            <button id="button">Alta 
+viata</button>
+		<h1 id="nume">Nume: Olariu</h1>
+                <h2 id="prenume">Prenume:Bianca-Nicoleta</h2>
                 <h3>E-mail:Olariu.Ni.Bianca@student.utcluj.ro</h3>
+
+<p id="anNastere">2006</p>
 
                 <img src="images\TheWeeknd.jpg">
 
@@ -57,5 +69,50 @@ href="https://etti.utcluj.ro/files/Acasa/Site/FiseDisciplina/EaRo/06.pdf">IA</a>
                        <li>Drawing</li>
                        <li>Shopping</li>
                 </ol>
+
+ <script>
+       // Cache the DOM
+var button = document.getElementById("button")
+var nume = document.getElementById('nume")
+var prenume = document.getElementById("prenume")
+var educatie = document.getElementById("educatie")
+var asteptari = document.getElementById("asteptari")
+var img = document.querySelector("img")
+var body = document.querySelector("body")
+var an = document.getElementById("anNastere")
+
+
+// Add event listener
+button.addEventListener("click", altaViata)
+an.addeventListener("mouseover", displayAge)
+
+
+//Define function
+function displayAge() {
+        an.innerHTML = year - an.innerHTML
+}
+
+    
+function altaViata() {
+        nume.innerHTML = "Inginer"
+        prenume.innnerHTML = "Google"
+
+        educatie.innerHTML = "Google"
+        asteptari.innerHTML = "<ul><li>Workshops</li><li>Intership</li></ul>"
+        
+        img.src = "images/cat.jpeg"
+        img.style.opacity = "70%"
+        img.style.height = "200px"
+        img.style.width = "300px"
+        img.style.border = "2px solid black"
+  
+        body.style.backgroundColor = "pink"
+        
+}
+
+</script>
+
 	</body>
-</html>														                         
+</html>		
+
+
