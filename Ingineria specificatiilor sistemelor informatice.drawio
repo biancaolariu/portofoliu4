@@ -1,0 +1,143 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0" version="29.2.7" pages="3">
+  <diagram name="Activity 1" id="jcMWLCKvK_HQ5mHSH2hV">
+    <mxGraphModel dx="1418" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="d3nISR87fsmvIbf7C_oi-11" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="" vertex="1">
+          <mxGeometry height="350" width="350" x="150" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="d3nISR87fsmvIbf7C_oi-3" edge="1" parent="1" source="d3nISR87fsmvIbf7C_oi-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="d3nISR87fsmvIbf7C_oi-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d3nISR87fsmvIbf7C_oi-1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Student&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="30" x="50" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="d3nISR87fsmvIbf7C_oi-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="urm. prog vizual" vertex="1">
+          <mxGeometry height="70" width="140" x="255" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="d3nISR87fsmvIbf7C_oi-15" edge="1" parent="1" source="d3nISR87fsmvIbf7C_oi-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d3nISR87fsmvIbf7C_oi-4" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="CD&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="30" x="50" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="d3nISR87fsmvIbf7C_oi-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Platforma e-learning" vertex="1">
+          <mxGeometry height="30" width="150" x="240" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d3nISR87fsmvIbf7C_oi-16" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="desemnare resursa ca publica" vertex="1">
+          <mxGeometry height="70" width="140" x="260" y="305" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="DgneD2cKVBP34UY3_f7Y" name="Activity 2">
+    <mxGraphModel dx="1418" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="b6_lLXYO35CwI5YjmWjo-1" parent="1" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="400" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="b6_lLXYO35CwI5YjmWjo-2" edge="1" parent="1" source="b6_lLXYO35CwI5YjmWjo-1" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b6_lLXYO35CwI5YjmWjo-11" parent="1" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="395" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="bWSPmCHapAfrrr6k-aoy-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="studentul acceseaza curs" vertex="1">
+          <mxGeometry height="40" width="120" x="355" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="bWSPmCHapAfrrr6k-aoy-4" edge="1" parent="1" source="bWSPmCHapAfrrr6k-aoy-3" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bWSPmCHapAfrrr6k-aoy-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="sistemul preia date" vertex="1">
+          <mxGeometry height="40" width="120" x="355" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="bWSPmCHapAfrrr6k-aoy-6" edge="1" parent="1" source="bWSPmCHapAfrrr6k-aoy-5" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bWSPmCHapAfrrr6k-aoy-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="sistemul calculeaza progresul" vertex="1">
+          <mxGeometry height="40" width="120" x="350" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="bWSPmCHapAfrrr6k-aoy-8" edge="1" parent="1" source="bWSPmCHapAfrrr6k-aoy-7" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bWSPmCHapAfrrr6k-aoy-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="sistemul afiseaza progresul" vertex="1">
+          <mxGeometry height="40" width="120" x="350" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="bWSPmCHapAfrrr6k-aoy-10" edge="1" parent="1" source="bWSPmCHapAfrrr6k-aoy-9" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="e7F9DzPvEYMaMssnul4a" name="Activity 3">
+    <mxGraphModel dx="1418" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="20ZWeIXVpoQEFvzsEyE0-1" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="" vertex="1">
+          <mxGeometry height="420" width="420" x="200" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="20ZWeIXVpoQEFvzsEyE0-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="30" width="160" x="330" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="20ZWeIXVpoQEFvzsEyE0-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Curs: Informatica Aplicata" vertex="1">
+          <mxGeometry height="30" width="140" x="340" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="20ZWeIXVpoQEFvzsEyE0-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Progress: 60%&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="120" x="210" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="20ZWeIXVpoQEFvzsEyE0-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="10" width="340" x="220" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="20ZWeIXVpoQEFvzsEyE0-11" parent="1" style="line;strokeWidth=10;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="190" x="220" y="112" as="geometry" />
+        </mxCell>
+        <mxCell id="20ZWeIXVpoQEFvzsEyE0-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Mod 1: Finalizat" vertex="1">
+          <mxGeometry height="20" width="260" x="220" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="20ZWeIXVpoQEFvzsEyE0-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Mod 2: Finalizat" vertex="1">
+          <mxGeometry height="20" width="260" x="220" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="20ZWeIXVpoQEFvzsEyE0-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Mod 3: Finalizat" vertex="1">
+          <mxGeometry height="20" width="260" x="220" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="20ZWeIXVpoQEFvzsEyE0-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Mod 4: In desfasurare..." vertex="1">
+          <mxGeometry height="20" width="260" x="220" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="20ZWeIXVpoQEFvzsEyE0-16" parent="1" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.tick" value="" vertex="1">
+          <mxGeometry height="10" width="10" x="470" y="135" as="geometry" />
+        </mxCell>
+        <mxCell id="20ZWeIXVpoQEFvzsEyE0-17" parent="1" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.tick" value="" vertex="1">
+          <mxGeometry height="10" width="10" x="470" y="165" as="geometry" />
+        </mxCell>
+        <mxCell id="20ZWeIXVpoQEFvzsEyE0-18" parent="1" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.tick" value="" vertex="1">
+          <mxGeometry height="10" width="10" x="470" y="195" as="geometry" />
+        </mxCell>
+        <mxCell id="20ZWeIXVpoQEFvzsEyE0-19" parent="1" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.partConcEllipse;startAngle=0.25;endAngle=0.1;arcWidth=0.5;" value="" vertex="1">
+          <mxGeometry height="10" width="10" x="470" y="225" as="geometry" />
+        </mxCell>
+        <mxCell id="20ZWeIXVpoQEFvzsEyE0-24" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Continuare" vertex="1">
+          <mxGeometry height="30" width="100" x="510" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="20ZWeIXVpoQEFvzsEyE0-25" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Material nou disponibil" vertex="1">
+          <mxGeometry height="30" width="150" x="460" y="400" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
